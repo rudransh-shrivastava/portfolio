@@ -9,7 +9,7 @@ export default function Projects() {
         </li>
         <li>
           <h3 className="font-semibold">Project Name</h3>
-          <p>Brief description of the project and its purpose.</p>
+          <p>Brief description of project and its purpose.</p>
         </li>
       </ul>
     </section>

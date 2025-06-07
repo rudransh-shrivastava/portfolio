@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SocialIcons from "./SocialIcons";
 
 export default function Header() {
   return (
@@ -13,8 +14,11 @@ export default function Header() {
       </div>
 
       <div className="text-left">
-        <h1 className="text-xl font-bold">Rudransh Shrivastava</h1>
-        <p className="text-l text-gray-200">Software Engineer</p>
+        <h1 className="text-3xl md:text-4xl font-bold">Rudransh Shrivastava</h1>
+        <p className="text- text-gray-200">Software Engineer</p>
+        <div>
+          <SocialIcons />
+        </div>
       </div>
     </header>
   );

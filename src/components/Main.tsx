@@ -9,8 +9,8 @@ export default function Main() {
     <div className="w-full max-w-[800px] px-4 py-8">
       <Header />
       <AboutMe />
-      <Experience />
-      <Projects />
+      {/* <Experience /> */}
+      {/* <Projects /> */}
       <Footer />
     </div>
   );
