@@ -5,7 +5,7 @@ export default function AboutMe() {
       <p>
         Hi, I&apos;m Rudransh Shrivastava, an undergraduate computer science
         student and a full stack developer. I&apos;m currently working with
-        Python/FastAPI at my current in.
+        Python/FastAPI at my current internship.
       </p>
     </section>
   );
