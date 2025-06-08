@@ -1,5 +1,6 @@
 import Image from "next/image";
 import SocialIcons from "./SocialIcons";
+import AnimatedWrapper from "./AnimatedWrapper";
 
 export default function Header() {
   return (
