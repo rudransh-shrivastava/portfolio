@@ -1,19 +1,31 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const SocialIcons = () => {
   const icons = [
     {
       id: 1,
-      icon: <FaLinkedin />,
-      link: "https://linkedin.com",
-      text: "LinkedIn",
+      icon: <MdEmail />,
+      link: "mailto:rudransh.shr@gmail.com",
+      text: "Email",
     },
-    { id: 2, icon: <FaGithub />, link: "https://github.com", text: "GitHub" },
+    {
+      id: 2,
+      icon: <FaGithub />,
+      link: "https://github.com/rudransh-shrivastava",
+      text: "GitHub",
+    },
     {
       id: 3,
+      icon: <FaLinkedin />,
+      link: "https://www.linkedin.com/in/rudransh-shrivastava",
+      text: "LinkedIn",
+    },
+    {
+      id: 4,
       icon: <FaTwitter />,
-      link: "https://twitter.com",
+      link: "https://twitter.com/rudranshstwt",
       text: "Twitter",
     },
   ];

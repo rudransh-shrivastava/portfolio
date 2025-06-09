@@ -2,6 +2,7 @@ import Header from "./Header";
 import AboutMe from "./AboutMe";
 import Footer from "./Footer";
 import AnimatedWrapper from "./AnimatedWrapper";
+// import Experience from "./Experience";
 
 export default function Main() {
   return (
