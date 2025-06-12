@@ -2,7 +2,7 @@ import Header from "./Header";
 import AboutMe from "./AboutMe";
 import Footer from "./Footer";
 import AnimatedWrapper from "./AnimatedWrapper";
-// import Experience from "./Experience";
+import Experience from "./Experience";
 
 export default function Main() {
   return (
@@ -10,7 +10,7 @@ export default function Main() {
       <AnimatedWrapper>
         <Header />
         <AboutMe />
-        {/* <Experience /> */}
+        <Experience />
         {/* <Projects /> */}
         <Footer />
       </AnimatedWrapper>
